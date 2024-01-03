@@ -1,0 +1,57 @@
+.generalContainerSec2{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 100px;
+    width: 100vw;
+    height:100vh;
+    background-image: url('../../assets/backgrounds/segundo\ \(1\).png');
+    background-size: cover;
+    /* background-position: center; */
+
+    align-items: center;
+    justify-content: center;
+    gap: 300px;
+}
+
+.imageSec2 {
+    width: 500px;
+    height: 600px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+
+    background-image: url('https://img.freepik.com/fotos-premium/fisiculturista-posando-fitness-musculoso-homem-na-cena-escura_136403-4206.jpg');
+}
+
+.leftContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 550px;
+    height: 413px;
+
+    padding: 10px;
+}
+
+.title{
+    width: 550px;
+    height: 100px;
+
+    color: #ffffff;
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 55px;
+
+    span{
+        color: #eeda00;
+    }
+}
+
+.description{
+    width: 550px;
+    height: 110px;
+
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 32px;
+}

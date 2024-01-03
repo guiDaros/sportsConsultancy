@@ -1,0 +1,15 @@
+.section5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 250px;
+  background-color: #f6ff00ae;
+
+  margin-top: 150px;
+  margin-bottom: 250px;
+
+  img{
+    width: 480px;
+    transform: rotate(5deg);
+  }
+}

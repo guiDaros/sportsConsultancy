@@ -1,0 +1,32 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 250px;
+  background-color: #191919;
+}
+
+.left {
+  margin-left: 50px;
+
+  img{
+    width: 220px;
+  }
+  
+}
+
+.middle {
+  color: #ffffff;
+}
+
+.right {
+  margin-right: 100px;
+  display: flex;
+  gap: 20px;
+
+  a {
+    img {
+      width: 45px;
+    }
+  }
+}

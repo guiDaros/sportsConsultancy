@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  width: 100vw;
+  display: grid;
+  place-items: center;
+  background: #222222;
+  font-family: "Ubuntu Mono", monospace;
+  font-weight: 400;
+}
+
+title{
+  display: flex;
+  width: 100vw;
+  margin-bottom: 25px;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 40px;
+  font-weight: 600;
+  color: #ffffff
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 500px;
+  gap: 10px;
+
+  > div {
+    flex: 0 0 170px;
+    border-radius: 0.5rem;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    box-shadow: 1px 5px 15px #636200;
+    position: relative;
+    overflow: hidden;
+
+    &:nth-of-type(1) {
+      background: url("https://img.freepik.com/fotos-gratis/retrato-de-corpo-inteiro-de-homem-sem-camisa-atletico-fazendo-exercicios-de-biceps-com-halteres-em-um-clube-de-ginastica_613910-1140.jpg")
+        no-repeat 50% / cover;
+    }
+    &:nth-of-type(2) {
+      background: url("https://www.itcvertebral.com.br/wp-content/uploads/2020/04/coluna-vertebral-itc-vertebral-1-1.jpg")
+        no-repeat 50% / cover;
+    }
+    &:nth-of-type(3) {
+      background: url("https://s2.glbimg.com/kbZtmCdUfd8KX6lD6uUbDq_PTL4=/smart/e.glbimg.com/og/ed/f/original/2020/07/29/gettyimages-1133152536.jpg")
+        no-repeat 50% / cover;
+    }
+    &:nth-of-type(4) {
+      background: url("https://media.ginasiovirtual.com/cdn-cgi/imagedelivery/YhXSdaNkKxMi5V1LJK0pRg/85e2ffb1-edda-46d2-f666-71fd5e9e3300/w=1300")
+        no-repeat 50% / cover;
+    }
+    &:nth-of-type(5) {
+        background: url("https://img.freepik.com/fotos-gratis/fone-de-ouvido-de-audio-usado-por-agentes-de-call-center-para-atender-clientes-e-fazer-telecomunicacoes-com-tecnologia-estacao-de-trabalho-de-atendimento-ao-cliente-vazia-com-fones-de-ouvido-computadores-e-aparelhos-modernos_482257-40834.jpg?size=626&ext=jpg&ga=GA1.1.1222169770.1702512000&semt=ais")
+          no-repeat 50% / cover;
+    }
+    &:nth-of-type(6) {
+        background: url("https://supertreino.com/wp-content/uploads/2018/09/pexels-photo-896058.jpeg")
+          no-repeat 50% / cover;
+    }
+
+    .content {
+      font-size: 1.5rem;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      padding: 15px;
+      opacity: 0;
+      flex-direction: column;
+      height: 100%;
+      justify-content: flex-end;
+      background: rgb(57, 46, 0);
+      background: linear-gradient(
+        0deg,
+        rgba(52, 43, 0, 0.676) 0%,
+        rgba(255, 255, 255, 0) 100%
+      );
+      transform: translatey(100%);
+      transition: opacity 0.5s ease-in-out, transform 0.5s 0.2s;
+      visibility: hidden;
+
+      span {
+        display: block;
+        margin-top: 5px;
+        font-size: 1.2rem;
+      }
+    }
+
+    &:hover {
+      flex: 0 0 300px;
+      box-shadow: 1px 3px 15px #dfbd00;
+      transform: translatey(-30px);
+    }
+
+    &:hover .content {
+      opacity: 1;
+      transform: translatey(0%);
+      visibility: visible;
+    }
+  }
+}
