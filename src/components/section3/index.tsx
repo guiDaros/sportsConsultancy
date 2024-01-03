@@ -15,6 +15,14 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
 const Section3: React.FC = () => {
+
+  const scrollToBottom = () => {
+    window.scrollTo({
+      top: document.documentElement.scrollHeight,
+      behavior: 'smooth'
+    });
+  };
+
   return (
     <section className='generalContainerSec3'>
       <div className='titleContainerSec3'>
@@ -25,7 +33,6 @@ const Section3: React.FC = () => {
           modules={[Navigation, Pagination, Scrollbar, A11y]}
           spaceBetween={50}
           slidesPerView={3}
-          centeredSlides={true}
           navigation
           onSwiper={(swiper) => console.log(swiper)}
           onSlideChange={() => console.log('slide change')}
@@ -38,7 +45,7 @@ const Section3: React.FC = () => {
         </Swiper>
       </div>
       <div className='buttonContainerSec3'>
-        <button>Faca parte</button>
+        <button onClick={scrollToBottom}>Faca parte</button>
       </div>
     </section>
   );
