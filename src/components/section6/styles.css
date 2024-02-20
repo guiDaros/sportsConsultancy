@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
-    width: 100%;
+    width: 99vw;
     max-width: 960px;
     margin: 0 auto;
 }
@@ -39,3 +39,30 @@
     color: #ffffff;
 }
 
+
+/* CELLPHONE VERSION */
+
+
+@media screen and (max-width: 1400px){
+    .grid-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        width: 100vw;
+    }
+
+    .grid-item {
+        width: 350px;
+    }
+
+    .grid-item h3{
+        width: 280px !important;
+        
+    }
+    .grid-item img {
+        width: 35px !important;
+
+        margin-left: 0;
+    }
+}

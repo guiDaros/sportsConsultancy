@@ -1,78 +1,108 @@
 .generalContainerSec3 {
-    background-color: #f1db51;
-    display: flex;
-    padding: 100px;
-    width: 100vw;
-    height: 70vh;
-    flex-direction: column;
+  background-color: #f1db51;
+  display: flex;
+  padding: 100px;
+  width: 99vw;
+  height: 70vh;
+  flex-direction: column;
 
-    margin-bottom: 100px;
+  margin-bottom: 100px;
 
-    align-items: center;
-    justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .buttonContainerSec3 {
-    button {
-        transition: transform 0.3s ease-in-out;
+  button {
+    transition: transform 0.3s ease-in-out;
 
-        width: 350px;
-        height: 60px;
-        margin-top: 50px;
+    width: 350px;
+    height: 60px;
+    margin-top: 50px;
 
-        border: 1px unset #ffffff;
-        border-radius: 5px;
-        font-size: 22px;
-        font-weight: 600;
-        text-transform: uppercase;
-        cursor: pointer;
+    border: 1px unset #ffffff;
+    border-radius: 5px;
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
 
-        background-color: transparent;
-        background-image: linear-gradient(180deg, #e6ec35 0%, #e8e005 100%);
-        box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.5);
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #e6ec35 0%, #e8e005 100%);
+    box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.5);
 
-        &:hover {
-            transform: scale(1.07);
-            background-image: linear-gradient(180deg, #f0f0f0 0%, #dcdcdc 100%);
-            color: #c4bd02;
+    &:hover {
+      transform: scale(1.07);
+      background-image: linear-gradient(180deg, #f0f0f0 0%, #dcdcdc 100%);
+      color: #c4bd02;
 
-            text-shadow: 2px 2px 4px rgba(105, 93, 0, 0.5);
-            transform: scale(1.07);
-        }
+      text-shadow: 2px 2px 4px rgba(105, 93, 0, 0.5);
+      transform: scale(1.07);
     }
+  }
 }
 
-.titleContainerSec3{
-    margin-bottom: 30px;
+.titleContainerSec3 {
+  margin-bottom: 30px;
 
-    h2{
-        color: #ffffff;
-        font-size: 45px;
-        font-weight: 700;
-        line-height: 55px;
-    }
+  h2 {
+    color: #ffffff;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 55px;
+  }
 }
 
 .carrouselDivSec3 {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
-  
 
 .swiper-button-prev::after,
 .swiper-button-next::after {
-  color: #ffffff ; /* Sua cor desejada para os ícones */
-
+  color: #ffcc00; /* Sua cor desejada para os ícones */
 }
 
 /* Estilo para o contêiner do Swiper */
 .carrouselDivSec3 .swiper-container {
-    width: 290px; /* Defina a largura desejada para o contêiner */
+  width: 290px; /* Defina a largura desejada para o contêiner */
+}
+
+/* Estilo para os slides do Swiper */
+.carrouselDivSec3 .swiper-slide img {
+  width: 350px; /* Defina a largura desejada para as imagens */
+  height: 450px; /* Mantém a proporção original da imagem */
+}
+
+/* CELLPHONE VERSION */
+
+@media screen and (max-width: 1400px) {
+  .generalContainerSec3 {
+    height: 105vh;
+    width: 100vw;
+    background-color: #2e2d2d;
+
+    Swiper {
+      slidesperview: 1 !important;
+    }
   }
-  
-  /* Estilo para os slides do Swiper */
-  .carrouselDivSec3 .swiper-slide img {
-    width: 350px; /* Defina a largura desejada para as imagens */
-    height: 450px; /* Mantém a proporção original da imagem */
+
+  .titleContainerSec3 {
+    height: auto;
+    width: 370px;
+    text-align: center;
   }
-  
+
+  .swiper-button-prev::after {
+    margin-right: 21px !important;
+  }
+
+  .swiper-button-next::after{
+    margin-left: 21px !important;
+  }
+
+  img{
+    width: 300px !important;
+    margin-left: 40px;
+  }
+}

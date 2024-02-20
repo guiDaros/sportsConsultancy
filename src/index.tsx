@@ -1,7 +1,7 @@
 // index.tsx
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './app'; // Importe o componente principal da sua aplicação
+import App from './App'; // Importe o componente principal da sua aplicação
 
 ReactDOM.render(
   <React.StrictMode>

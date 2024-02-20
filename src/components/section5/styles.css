@@ -1,4 +1,5 @@
 .section5 {
+  width: 99vw;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -11,5 +12,21 @@
   img{
     width: 480px;
     transform: rotate(5deg);
+  }
+}
+
+
+/* CELLPHONE VERSION */
+
+
+@media screen and (max-width: 1400px){
+  .section5 {
+    height: 150px;
+    width: 100vw;
+  
+    img{
+      width: 480px;
+      transform: rotate(5deg);
+    }
   }
 }

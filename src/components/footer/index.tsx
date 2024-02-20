@@ -21,7 +21,6 @@ const Footer: React.FC = () => {
       </div>
       <div className="middle">
         <p>Direitos Autorais © 2024 Junior Dalamaria. Todos os direitos reservados.</p>
-        {/* Mais conteúdo do meio do footer */}
       </div>
       <div className="right">
         <a href="link-do-instagram"><img src={instagramIcon} alt="" /></a>

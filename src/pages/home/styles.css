@@ -1,11 +1,10 @@
 /* styles.css */
-*{
+* {
   background-color: #212121;
 }
 
-.home-container {
-    /* Estilos para o container da página inicial */
-    
+@media screen and (max-width: 400px) {
+  .mainContainer{
+    width: 100vw;
+  }
 }
-  /* Adicione mais estilos conforme necessário */
-  

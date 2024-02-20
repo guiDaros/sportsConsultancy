@@ -7,7 +7,6 @@ const Section5: React.FC = () => {
   return (
     <section className="section5">
       <img src={noteImageSec5} alt="Imagem 5" />
-      {/* <h1 className='containerTextSec5'>Atendimento Via Whatsapp! 📱</h1> */}
     </section>
   );
 };
