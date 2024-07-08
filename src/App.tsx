@@ -6,7 +6,7 @@ const App: React.FC = () => {
   return (
     <Router>
       <div className="app-container">
-        {/* Cabeçalho, rodapé ou layout comum podem ser incluídos aqui */}
+        
         
         <Routes>
           {/* Rotas */}

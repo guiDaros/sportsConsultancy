@@ -20,7 +20,7 @@ body {
 title{
   display: flex;
   width: 100vw;
-  margin-bottom: 25px;
+  margin-bottom: 40px;
   align-items: center;
   justify-content: center;
 
@@ -46,27 +46,27 @@ title{
     overflow: hidden;
 
     &:nth-of-type(1) {
-      background: url("https://img.freepik.com/fotos-gratis/retrato-de-corpo-inteiro-de-homem-sem-camisa-atletico-fazendo-exercicios-de-biceps-com-halteres-em-um-clube-de-ginastica_613910-1140.jpg")
+      background: url("../../assets/new-photos/img-sec4/correção\ postural.jpg")
         no-repeat 50% / cover;
     }
     &:nth-of-type(2) {
-      background: url("https://www.itcvertebral.com.br/wp-content/uploads/2020/04/coluna-vertebral-itc-vertebral-1-1.jpg")
+      background: url("../../assets/new-photos/img-sec4/PERIODIZAÇÃO.jpg")
         no-repeat 50% / cover;
     }
     &:nth-of-type(3) {
-      background: url("https://s2.glbimg.com/kbZtmCdUfd8KX6lD6uUbDq_PTL4=/smart/e.glbimg.com/og/ed/f/original/2020/07/29/gettyimages-1133152536.jpg")
+      background: url("../../assets/new-photos/img-sec4/dores\ e\ lesões.jpg")
         no-repeat 50% / cover;
     }
     &:nth-of-type(4) {
-      background: url("https://media.ginasiovirtual.com/cdn-cgi/imagedelivery/YhXSdaNkKxMi5V1LJK0pRg/85e2ffb1-edda-46d2-f666-71fd5e9e3300/w=1300")
+      background: url("../../assets/new-photos/img-sec4/consultoria\ para\ profissionais\ da\ área.jpg")
         no-repeat 50% / cover;
     }
     &:nth-of-type(5) {
-        background: url("https://img.freepik.com/fotos-gratis/fone-de-ouvido-de-audio-usado-por-agentes-de-call-center-para-atender-clientes-e-fazer-telecomunicacoes-com-tecnologia-estacao-de-trabalho-de-atendimento-ao-cliente-vazia-com-fones-de-ouvido-computadores-e-aparelhos-modernos_482257-40834.jpg?size=626&ext=jpg&ga=GA1.1.1222169770.1702512000&semt=ais")
+        background: url("../../assets/new-photos/img-sec4/testes\ físicos.jpg")
           no-repeat 50% / cover;
     }
     &:nth-of-type(6) {
-        background: url("https://supertreino.com/wp-content/uploads/2018/09/pexels-photo-896058.jpeg")
+        background: url("../../assets/new-photos/img-sec4/corrida.jpg")
           no-repeat 50% / cover;
     }
 
@@ -114,7 +114,6 @@ title{
 
 @media screen and (max-width: 1400px){
   title{
-
     text-align: center;
   }
 
@@ -133,7 +132,7 @@ title{
     cursor: default;
 
     width: 300px;
-    height: auto;
+    height: 300px;
   }
 
   .container > div:hover {

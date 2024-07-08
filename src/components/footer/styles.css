@@ -1,4 +1,6 @@
-
+body{
+  width: 100vw;
+}
 .footer {
   display: flex;
   justify-content: space-between;

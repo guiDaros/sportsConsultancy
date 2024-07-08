@@ -1,10 +1,15 @@
 /* styles.css */
 * {
   background-color: #212121;
+  font-family: "Charis SIL", serif;
+  body {
+    overflow-x: hidden; /* Isso esconde a rolagem horizontal */
+}
+
 }
 
 @media screen and (max-width: 400px) {
-  .mainContainer{
+  .mainContainer {
     width: 100vw;
   }
 }

@@ -9,38 +9,38 @@ const Section4: React.FC = () => {
       <div className="container">
         <div>
           <div className="content">
-            <h2>Treino Individual, periodizado</h2>
-            <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae odio, expedita est, qui earum numquam cum quidem, saepe laboriosam natus adipisci obcaecati? Exercitationem illo dolores vel quidem voluptatem ea eaque?</span>
+            <h2>CORREÇÃO POSTURAL</h2>
+            <span>Avaliação e correção de padrões posturais alterados</span>
           </div>
         </div>
         <div>
           <div className="content">
-            <h2>Correcao postural</h2>
-            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente odio necessitatibus impedit reprehenderit nostrum veritatis, consectetur ipsam ex, voluptas ullam architecto laudantium nulla aliquid magnam cupiditate eveniet delectus neque nihil!</span>
+            <h2>TREINAMENTO ESPECÍFICO E PERIODIZADO</h2>
+            <span>Planejamento dividido em Macro, Meso e Microciclo de treino visando as especificidades de cada indivíduo </span>
           </div>
         </div>
         <div>
           <div className="content">
-            <h2>Alongamentos e mobilidades</h2>
-            <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima fugiat voluptas, suscipit, enim sapiente quidem amet, a vero dolorem autem magnam tenetur provident excepturi ipsa maiores similique iusto. Autem, culpa.</span>
+            <h2>REABILITAÇÃO DE LESÕES </h2>
+            <span>Prescrição, reabilitação e correção de movimentos que causam dores </span>
           </div>
         </div>
         <div>
           <div className="content">
-            <h2>Ganho de massa muscular</h2>
-            <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis provident consequuntur iste. Sit consequuntur ullam temporibus soluta modi, architecto nulla. Ipsa fugit possimus ab. Voluptatum consectetur doloribus non rerum aliquam.</span>
+            <h2>CONSULTORIA PARA PROFISSIONAIS DA ÁREA</h2>
+            <span>Solução de dúvidas e auxílio na prescrição de treinamento correta para cada caso específico </span>
           </div>
         </div>
         <div>
           <div className="content">
-            <h2>Atendimento via Whatsapp</h2>
-            <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima fugiat voluptas, suscipit, enim sapiente quidem amet, a vero dolorem autem magnam tenetur provident excepturi ipsa maiores similique iusto. Autem, culpa.</span>
+            <h2>AVALIAÇÃO FÍSICA</h2>
+            <span>Adipometria, Perimetria, testes físicos, dinamometria, estado nutricional e parâmetros como IMC e RCQ</span>
           </div>
         </div>
         <div>
           <div className="content">
-            <h2>Ganho de forca seguro</h2>
-            <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis provident consequuntur iste. Sit consequuntur ullam temporibus soluta modi, architecto nulla. Ipsa fugit possimus ab. Voluptatum consectetur doloribus non rerum aliquam.</span>
+            <h2>ATENDIMENTO PRESENCIAL</h2>
+            <span>Atendimento personalizado, oferece orientação individualizada e adaptada para suas necessidades e objetivos específicos</span>
           </div>
         </div>
       </div>

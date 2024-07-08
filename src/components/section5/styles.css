@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   height: 250px;
-  background-color: #f6ff00ae;
+  background-color: #ffdd00cb;
 
   margin-top: 150px;
   margin-bottom: 250px;
@@ -25,7 +25,7 @@
     width: 100vw;
   
     img{
-      width: 480px;
+      width: 370px;
       transform: rotate(5deg);
     }
   }
