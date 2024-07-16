@@ -60,6 +60,7 @@ const Section3: React.FC = () => {
           modules={[Navigation, Pagination, Scrollbar, A11y]}
           slidesPerView={slidePerView}
           navigation
+          // @ts-ignore
           onSwiper={(swiper) => console.log(swiper)}
           onSlideChange={() => console.log("slide change")}
           style={{
