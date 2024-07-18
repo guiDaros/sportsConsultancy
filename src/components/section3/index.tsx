@@ -8,10 +8,10 @@ import photo4 from "../../assets/new-photos/imgs-results/eu.png";
 import photo5 from "../../assets/new-photos/imgs-results/guizão.png";
 import photo6 from "../../assets/new-photos/imgs-results/hiago.png";
 import photo7 from "../../assets/new-photos/imgs-results/Kaiki.png";
-import photo8 from "../../assets/new-photos/imgs-results/eve2.png"
-import photo9 from "../../assets/new-photos/imgs-results/lontra.png"
-import photo10 from "../../assets/new-photos/imgs-results/mana.png"
-import photo11 from "../../assets/new-photos/imgs-results/pai.png"
+import photo8 from "../../assets/new-photos/imgs-results/eve2.png";
+import photo9 from "../../assets/new-photos/imgs-results/lontra.png";
+import photo10 from "../../assets/new-photos/imgs-results/mana.png";
+import photo11 from "../../assets/new-photos/imgs-results/pai.png";
 import photo12 from "../../assets/new-photos/imgs-results/ruga.png";
 import { useEffect, useState } from "react";
 
@@ -56,7 +56,8 @@ const Section3: React.FC = () => {
         <h2>Evolucao de alguns alunos</h2>
       </div>
       <div className="carrouselDivSec3">
-        <Swiper className="carroussels"
+        <Swiper
+          className="carroussels"
           modules={[Navigation, Pagination, Scrollbar, A11y]}
           slidesPerView={slidePerView}
           navigation
@@ -69,41 +70,101 @@ const Section3: React.FC = () => {
             //left: "100px",
           }}
         >
-          <SwiperSlide >
-            <img src={photo1} style={{width:"450px"}} className="swiperImgSec3" alt="evolution photo" />
+          <SwiperSlide>
+            <img
+              src={photo1}
+              style={{ width: "450px" }}
+              className="swiperImgSec3"
+              alt="evolution photo"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={photo2} style={{width:"450px"}} className="swiperImgSec3" alt="evolution photo" />
+            <img
+              src={photo2}
+              style={{ width: "450px" }}
+              className="swiperImgSec3"
+              alt="evolution photo"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={photo3} style={{width:"450px"}} className="swiperImgSec3" alt="evolution photo" />
+            <img
+              src={photo3}
+              style={{ width: "450px" }}
+              className="swiperImgSec3"
+              alt="evolution photo"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={photo4} style={{width:"450px"}} className="swiperImgSec3" alt="evolution photo" />
+            <img
+              src={photo4}
+              style={{ width: "450px" }}
+              className="swiperImgSec3"
+              alt="evolution photo"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={photo5} style={{width:"450px"}} className="swiperImgSec3" alt="evolution photo" />
+            <img
+              src={photo5}
+              style={{ width: "450px" }}
+              className="swiperImgSec3"
+              alt="evolution photo"
+            />
           </SwiperSlide>
-          <SwiperSlide >
-            <img src={photo6} style={{width:"450px"}} className="swiperImgSec3" alt="evolution photo" />
+          <SwiperSlide>
+            <img
+              src={photo6}
+              style={{ width: "450px" }}
+              className="swiperImgSec3"
+              alt="evolution photo"
+            />
           </SwiperSlide>
-          <SwiperSlide >
-            <img src={photo7} style={{width:"450px"}} className="swiperImgSec3" alt="evolution photo" />
+          <SwiperSlide>
+            <img
+              src={photo7}
+              style={{ width: "450px" }}
+              className="swiperImgSec3"
+              alt="evolution photo"
+            />
           </SwiperSlide>
-          <SwiperSlide >
-            <img src={photo8} style={{width:"450px"}} className="swiperImgSec3" alt="evolution photo" />
+          <SwiperSlide>
+            <img
+              src={photo8}
+              style={{ width: "450px" }}
+              className="swiperImgSec3"
+              alt="evolution photo"
+            />
           </SwiperSlide>
-          <SwiperSlide >
-            <img src={photo9} style={{width:"450px"}} className="swiperImgSec3" alt="evolution photo" />
+          <SwiperSlide>
+            <img
+              src={photo9}
+              style={{ width: "450px" }}
+              className="swiperImgSec3"
+              alt="evolution photo"
+            />
           </SwiperSlide>
-          <SwiperSlide >
-            <img src={photo10} style={{width:"450px"}} className="swiperImgSec3" alt="evolution photo" />
+          <SwiperSlide>
+            <img
+              src={photo10}
+              style={{ width: "450px" }}
+              className="swiperImgSec3"
+              alt="evolution photo"
+            />
           </SwiperSlide>
-          <SwiperSlide >
-            <img src={photo11} style={{width:"450px"}} className="swiperImgSec3" alt="evolution photo" />
+          <SwiperSlide>
+            <img
+              src={photo11}
+              style={{ width: "450px" }}
+              className="swiperImgSec3"
+              alt="evolution photo"
+            />
           </SwiperSlide>
-          <SwiperSlide >
-            <img src={photo12} style={{width:"450px"}} className="swiperImgSec3" alt="evolution photo" />
+          <SwiperSlide>
+            <img
+              src={photo12}
+              style={{ width: "450px" }}
+              className="swiperImgSec3"
+              alt="evolution photo"
+            />
           </SwiperSlide>
         </Swiper>
       </div>
