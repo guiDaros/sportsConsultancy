@@ -14,10 +14,9 @@
 }
 
 .imageSec2 {
-
 }
 
-.insideContainerSec2{
+.insideContainerSec2 {
   width: 500px;
   height: 600px;
 
@@ -25,19 +24,18 @@
   flex-direction: row-reverse;
 }
 
-.image1{
+.image1 {
   width: 450px;
   height: 600px;
 }
 
-.image2{
+.image2 {
   width: 270px;
   height: 600px;
 
   max-width: 300px;
   object-fit: cover;
 }
-
 
 .leftContainer {
   display: flex;
@@ -78,7 +76,7 @@
 @media screen and (max-width: 1400px) {
   .generalContainerSec2 {
     width: 100vw !important;
-    height: 140vh;
+    height: 150vh !important;
     background: none;
     padding: 0 !important;
 
@@ -89,30 +87,23 @@
     gap: 0;
   }
 
-  .insideContainerSec2{
+  .title {
+    margin: 0 !important;
+  }
+
+  .insideContainerSec2 {
     height: 400px !important;
     width: 340px !important;
 
     margin-bottom: 50px;
 
-    img{
+    img {
       width: 170px !important;
       height: 400px !important;
       margin: 0;
       object-fit: cover !important;
     }
-
-    .image2{}
   }
-
-  /* .imageSec2 {
-    height: 400px !important;
-    width: 340px !important;
-    margin-top: -110px;
-    margin-bottom: 50px;
-
-    background-size: 340px;
-  } */
 
   .leftContainer {
     text-align: center !important;

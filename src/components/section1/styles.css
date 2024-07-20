@@ -69,6 +69,7 @@
 .description {
   width: 550px;
   height: 110px;
+  margin-bottom: 0 !important;
 
   color: #ffffff;
   font-size: 27px !important;
@@ -85,9 +86,6 @@
   box-shadow: 0 0 10px 5px #ffe10098;
   border-radius: 10px;
 
-  background-image: url("../../assets/new-photos/12.jpg");
-  background-size: 500px 600px;
-
   img {
     border-radius: 10px;
   }
@@ -98,13 +96,12 @@
 @media screen and (max-width: 1400px) {
   .generalContainer {
     width: 100vw;
-    height: 130vh;
+    height: 170vh;
     display: flex;
     padding: 0;
     align-items: center;
     background: none;
     flex-direction: column;
-    margin: 0;
   }
 
   .leftContainer {
@@ -126,8 +123,8 @@
   }
 
   .title {
-    margin-top: 90px;
-    margin-bottom: 50px;
+    margin-top: 150px !important;
+    margin-bottom: 100px !important;
 
     font-size: 35px !important;
     font-weight: 500 !important;
@@ -149,8 +146,14 @@
     line-height: 32px !important;
     text-align: center !important;
 
+    margin-top: 50px !important;
+
     width: 370px !important;
     height: auto !important;
+  }
+
+  button{
+    min-height: 60px !important;
   }
 
   .leftContainer {
